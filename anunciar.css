@@ -1,0 +1,38 @@
+.anunciarDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.anunciar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+h1{
+    text-align: center !important;
+}
+
+.labelContainer{
+    margin-top: 20px !important;
+}
+
+#textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+}
+
+#commentTextarea{
+    overflow: hidden;
+    resize: vertical;
+    margin: 0px;
+}
+
+footer{
+    position:fixed;
+    bottom: 0px;
+}

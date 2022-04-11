@@ -9,7 +9,9 @@
     <script src="https://kit.fontawesome.com/0cc1b7e656.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="anunciar.css" type="text/css">
     <script src="script/index.js" defer></script>
+    <script src="script/anunciar.js" defer></script>
 
     <title>Netdesk</title>
 </head>
@@ -36,9 +38,16 @@
                 <h1>Anuncie Já!</h1>
                 <div class="anunciar">
                     <div class="labelContainer" id="labelContainer">
-                        <input class="inputC inputL" id="pesquisaInput" type="text" placeholder=" " required>
-                        <label id="label" for="pesquisaInput">
-                            Pesquisar
+                        <input class="inputC inputL" id="nomeAInput" type="text" placeholder=" " required>
+                        <label id="label" for="nomeAInput">
+                            Nome
+                        </label> 
+                    </div>
+
+                    <div class="labelContainer" id="labelContainer">
+                        <input class="inputC inputL" id="valorInput" type="text" placeholder=" " required>
+                        <label id="label" for="valorInput">
+                            Valor
                         </label> 
                     </div>
 
@@ -48,13 +57,6 @@
                         </label> 
                         <textarea oninput="auto_grow(this)" class="inputC" name="commentTextarea" id="commentTextarea" cols="30" rows="1"></textarea>
                     </div> 
-
-                    <div class="labelContainer" id="labelContainer">
-                        <input class="inputC inputL" id="pesquisaInput" type="text" placeholder=" " required>
-                        <label id="label" for="pesquisaInput">
-                            Pesquisar
-                        </label> 
-                    </div>
                 </div>
             </div>
         </main>
