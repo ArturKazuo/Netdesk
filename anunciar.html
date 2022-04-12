@@ -23,7 +23,7 @@
         </div>
         <div class="mainMenu" style="width: 40%;">
             <ul class="menuUl">  
-                <a onclick="uncheck()" href="index.html#1">Página Inicial</a>
+                <a onclick="uncheck()" href="index.html">Página Inicial</a>
                 <a onclick="uncheck()" href="signUp.html">Criar Conta</a>
                 <a onclick="uncheck()" href="login.html">Login</a>
                 <a onclick="uncheck()" href="anunciar.html">Anunciar</a>
@@ -57,6 +57,10 @@
                         </label> 
                         <textarea oninput="auto_grow(this)" class="inputC" name="commentTextarea" id="commentTextarea" cols="30" rows="1"></textarea>
                     </div> 
+
+                    <div>
+                        <button id="btn" class="btn" onclick="postAnuncio()">Anunciar</button>
+                    </div>
                 </div>
             </div>
         </main>

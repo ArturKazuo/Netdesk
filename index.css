@@ -83,6 +83,15 @@ main{
     margin-bottom: 20px;
 }
 
+.fa-magnifying-glass{
+    transition: all 0.2s ease;
+    color: #505050;
+}
+
+.fa-magnifying-glass:hover{
+    color: black;
+}
+
 .fullLabelContainer{
     display: flex;
     justify-content: space-around;
@@ -118,6 +127,12 @@ main{
 .anuncio{
     display: flex;
     justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.anuncio:hover{
+    transform: scale(1.05, 1.05);
+    box-shadow: 0px 8px 12px 3px #696969;
 }
 
 .anunciosDiv a{
